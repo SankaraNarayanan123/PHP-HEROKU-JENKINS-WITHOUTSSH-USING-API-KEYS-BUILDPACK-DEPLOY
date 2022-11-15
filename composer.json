@@ -1,0 +1,50 @@
+{
+  "name": "code-smell/php-automate-build-ant",
+
+"homepage": "https://github.com/sebastianbergmann/php-code-coverage",
+
+
+  "license": "MIT License",
+
+  "authors": [
+    {
+        "name": "Sebastian Bergmann",
+        "email": "sebastian@phpunit.de",
+        "role": "lead"
+    }
+],
+"support": {
+    "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues"
+},
+
+"config": {
+  "platform": {
+      "php": "5.6.4"
+  },
+  "optimize-autoloader": true,  
+  "sort-packages": true
+},
+
+"minimum-stability": "dev",  
+"prefer-stable": true,
+"require": {
+  "php": ">=8.0"    
+},
+"require-dev": {
+  "pdepend/pdepend": "2.2.4",
+  "phing/phing": "2.15.0",    
+  "phpmd/phpmd": "2.4.3",    
+  "phpunit/php-timer": "dev-main",
+  "phpunit/phpunit": "dev-main",
+  "sebastian/version": "dev-main",    
+  "sebastian/phpcpd": "dev-main",
+  "squizlabs/php_codesniffer": "2.7.0",    
+  "phpunit/php-code-coverage": "dev-main",
+  "nikic/php-parser": "4.15.1" 
+},
+"autoload": {
+    "psr-4": {
+      "Foo\\": "src"
+    }
+  }
+}
